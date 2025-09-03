@@ -29,14 +29,14 @@ Follow the instructions on https://github.com/coq-community/templates to regener
 
 - Author(s):
   - Hugo Herbelin (initial)
-- Coq-community maintainer(s):
+- Rocq-community maintainer(s):
   - Yishuai Li ([**@liyishuai**](https://github.com/liyishuai))
   - Jason Gross ([**@JasonGross**](https://github.com/JasonGross))
 - License: [Mozilla Public License 2.0](LICENSE)
-- Compatible Coq versions: Coq 8.10 or later
+- Compatible Rocq/Coq versions: Coq 8.10 or later
 - Additional dependencies:
   - [Cppo](https://github.com/ocaml-community/cppo)
-- Coq namespace: `ReductionEffect`
+- Rocq/Coq namespace: `ReductionEffect`
 - Related publication(s): none
 
 ## Building and installation instructions
