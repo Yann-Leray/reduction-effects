@@ -47,7 +47,9 @@ let check_valid_print_ref = function
     let env = Global.env () in
     let sigma = Evd.from_env env in
     let sigma, c = Evd.fresh_constant_instance env sigma cst in
+#if COQ_VERSION >= (9, 2, 0)
     let c = Util.on_snd (EConstr.EInstance.kind sigma) c in
+#endif
     let t = Typeops.type_of_constant_in env c in
     check_ID_type env sigma (EConstr.of_constr t);
     cst
